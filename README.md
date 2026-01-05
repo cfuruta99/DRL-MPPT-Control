@@ -13,3 +13,6 @@ Thank you for taking the time to learn about my project, and any recommendations
 
 # 3rd Update
 I just added some code to show comparison graphs from the P&O model made on MATLAB, and added code to the P&O MATLAB code to output all data into a CSV file (which will be posted later). The graph for the PV curve still needs some work (something is wrong with how Python tries to take the data created in the CSV file from the MATLAB code for the P&O data).
+
+# 4th Update
+Finialized some code to add a temperature effect to the model. The coefficient used here is -0.4% per degree Celcius above STC Standard Testing Conditions. Generally, as solar panels get warmer under sunlight, the efficiency of the panel is reduced. More intense exposure to sunlight will also permanently reduce the panel's efficiency overtime which is why they have a life cycle. 
